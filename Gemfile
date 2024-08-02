@@ -4,18 +4,18 @@ source 'https://rubygems.org'
 ruby '>= 2.6.0', '< 3.1.0'
 
 gem 'pkg-config', '~> 1.4'
-gem 'rexml', '~> 3.2'
+gem 'rexml', '~> 3.3'
 
 gem 'puma', '~> 5.6'
 gem 'rails', '~> 6.1.7'
 gem 'sprockets', '~> 3.7.2'
 gem 'thor', '~> 1.2'
-gem 'rack', '~> 2.2.4'
+gem 'rack', '~> 2.2.8'
 
 gem 'hamlit-rails', '~> 0.2'
 gem 'pg', '~> 1.4'
 gem 'makara', '~> 0.5'
-gem 'pghero', '~> 2.8'
+gem 'pghero', '~> 3.1'
 gem 'dotenv-rails', '~> 2.8'
 
 gem 'aws-sdk-s3', '~> 1.114', require: false
@@ -38,10 +38,10 @@ group :pam_authentication, optional: true do
 end
 
 gem 'net-ldap', '~> 0.17'
-gem 'omniauth-cas', '~> 2.0'
-gem 'omniauth-saml', '~> 1.10'
+gem 'omniauth-cas', '~> 3.0'
+gem 'omniauth-saml', '~> 2.1'
 gem 'gitlab-omniauth-openid-connect', '~>0.10.0', require: 'omniauth_openid_connect'
-gem 'omniauth', '~> 1.9'
+gem 'omniauth', '~> 2.1'
 gem 'omniauth-rails_csrf_protection', '~> 0.1'
 
 gem 'color_diff', '~> 0.1'
@@ -60,7 +60,7 @@ gem 'idn-ruby', require: 'idn'
 gem 'kaminari', '~> 1.2'
 gem 'link_header', '~> 0.0'
 gem 'mime-types', '~> 3.4.1', require: 'mime/types/columnar'
-gem 'nokogiri', '~> 1.13'
+gem 'nokogiri', '~> 1.16'
 gem 'nsa', '~> 0.2'
 gem 'oj', '~> 3.13'
 gem 'ox', '~> 2.14'
